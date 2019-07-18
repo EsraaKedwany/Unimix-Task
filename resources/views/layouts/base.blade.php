@@ -6,36 +6,45 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>Document</title>
+    <title>Unimix</title>
 </head>
+<style>
+    #menu-item{
+        color:#466b94		;
+        font-weight: bold;
+    }
+    #menu-bg{
+        color:#3f4b60;
+    }
+</style>
 <body>
 
-    <nav class="navbar navbar-expand-sm bg-light " style="background-color: #bbbbbb;">
+    <nav class="navbar navbar-expand-sm bg-light ">
         <a class="navbar-brand" href="#">
-            <img src="public/images/logo/logo.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+            <img src="/images/logo/logo.png" width="200" height="65" class="d-inline-block align-top" alt="">
         </a>
         <div class="container">
-            <ul class="nav justify-content-end">
+            <ul class="nav " >
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="/" id="menu-item">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
+                    <a class="nav-link" href="#" id="menu-item">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Why Unimix</a>
+                    <a class="nav-link" href="#" id="menu-item">Why Unimix</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Products & Services</a>
+                    <a class="nav-link" href="/products" id="menu-item">Products & Services</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Projects</a>
+                    <a class="nav-link" href="#" id="menu-item">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">People</a>
+                    <a class="nav-link" href="#" id="menu-item">People</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
+                    <a class="nav-link" href="#" id="menu-item">Contact Us</a>
                 </li>
             </ul>
         </div>
