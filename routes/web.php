@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('home');
 });
+
+//Products Routes
+Route::get('/products','ProductController@index');
